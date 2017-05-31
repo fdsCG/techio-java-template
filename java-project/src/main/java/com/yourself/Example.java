@@ -1,10 +1,10 @@
 package com.yourself;
 
+import java.util.Arrays;
 
-public class Example{
+public class Example {
 
-    public static String HelloWorld(){
-
-        return "";
-    }
+	public int sum(int... ns) {
+		return Arrays.stream(??).sum();
+	}
 }

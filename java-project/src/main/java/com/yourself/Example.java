@@ -13,7 +13,7 @@ public class Example {
  * @return the sum of elements
  */
 public int sum(int... ns) {
-	return Arrays.stream(??).sum();
+	return Arrays.stream(ns).sum();
 }
 //{ autofold
 }

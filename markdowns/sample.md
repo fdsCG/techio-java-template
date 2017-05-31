@@ -43,10 +43,3 @@ Welcome to this course. This is the first lesson.
 This is an example of exercise: the learner can complete the stub to match a test you wrote.
 
 @[Return Hello World!]({"stubs": ["src/main/java/com/yourself/Example.java"], "command": "com.yourself.ExampleTest#test"})
-
-# This is the part 3
-
-
-Web viewers can be added to a course: try to change this HTML file.
-
-@[Try HTML]({"stubs": ["src/main/resources/HelloWorld.html", "src/main/java/com/yourself/Example.java"], "command": "com.yourself.ExampleTest#visualisation"})

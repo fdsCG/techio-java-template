@@ -1,11 +1,9 @@
-title : Java Course Template
+title : My first playground
 plan:
   - title: Sample
     statement: markdowns/sample.md
 #  - title: Another sample
 #    statement: markdowns/another-sample.md
-#  - title: A third sample
-#    statement: markdowns/third-sample.md
 projects:
   java:
     root: java-project

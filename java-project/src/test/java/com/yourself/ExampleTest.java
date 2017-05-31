@@ -10,7 +10,7 @@ public class ExampleTest {
 		try {
 			Assert.assertEquals("Oops! sum(1, 5, -2) should return 4", 4, new Example().sum(1, 5, -2));
 		} catch (AssertionError ae) {
-			System.out.println("TECHIO> message -c Failure " + ae.getMessage());
+			System.out.println("TECHIO> message --channel \"Failure\" " + ae.getMessage());
 			throw ae;
 		}
 	}

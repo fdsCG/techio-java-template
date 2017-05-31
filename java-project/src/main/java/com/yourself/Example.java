@@ -1,8 +1,6 @@
 // { autofold
 package com.yourself;
 
-import java.util.Arrays;
-
 public class Example {
 // }
 /**
@@ -13,7 +11,11 @@ public class Example {
  * @return the sum of elements
  */
 public int sum(int... ns) {
-	return Arrays.stream(ns).sum();
+	int sum = 0;
+	for(int i : ns){ 
+		sum = i; 
+	} 
+	return sum;
 }
 //{ autofold
 }

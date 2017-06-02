@@ -9,9 +9,10 @@ public class ExampleTest {
 	public void test() {
 		try {
 			Assert.assertEquals("Running sum(1, 2, -2)...", 1, new Example().sum(1, 2, -2));
+			System.out.println("TECHIO> success true");
 		} catch (AssertionError ae) {
+			System.out.println("TECHIO> success false");
 			System.out.println("TECHIO> message --channel \"Oops :(\" \"" + ae.getMessage() + "\"");
-			//throw ae;
 		}
 	}
 }

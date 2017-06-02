@@ -1,9 +1,9 @@
-title : My first playground
+title : My First Playground
 plan:
-  - title: Sample
-    statement: markdowns/sample.md
-#  - title: Another sample
-#    statement: markdowns/another-sample.md
+  - title: Welcome
+    statement: markdowns/welcome.md
+#  - title: Another Page
+#    statement: markdowns/another-page.md
 projects:
   java:
     root: java-project

@@ -42,4 +42,4 @@ Welcome to this course. This is the first lesson.
 
 This is an example of exercise: the learner can complete the stub to match a test you wrote.
 
-@[Return Hello World!]({"stubs": ["src/main/java/com/yourself/Example.java"], "command": "com.yourself.ExampleTest#test"})
+@[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Example.java"], "command": "com.yourself.ExampleTest#test"})

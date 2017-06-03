@@ -15,7 +15,7 @@ To get more information about how to inject programming exercices please refer t
 
 # Template Resources
 
-`markdowns/welcome.md`
+`markdowns/welcome.md`  
 the content you are reading right here is in this file. Tech.io relies on the [markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercices.
 
 `java-project`

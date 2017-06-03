@@ -1,7 +1,7 @@
 
-# Welcome!
+# About this Template
 
-This template lets you get started quickly with a simple working example in Java. The source code is available on [GitHub](), pull requests are very welcome, please don't hesitate to come up with proposals for improving it!
+This template lets you get started quickly with a simple working example using Java, Maven and JUnit. The sources are available on [GitHub](), please don't hesitate to come up with proposals for improving it, pull requests are very welcome!
 
 If it is your first contribution then you should have a look at the [Getting Started](https://gettingstarted) document.
 

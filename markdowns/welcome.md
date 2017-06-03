@@ -26,7 +26,7 @@ A simple Java + Maven + JUnit project dedicated to run the programming exercise 
 
 
 `techio.yml`  
-This file is mandatory and its path must not by changed, it describes both table of content and programming projects.
+This file is mandatory and its path must not be changed, it describes both the table of content and the programming projects.
 
 # Visual and Interactive Content
 

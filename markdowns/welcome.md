@@ -15,7 +15,7 @@ If it is your first contribution then you probably should have a look on the [Ge
 
 `techio.yml`: this template configuration file. This file is madatory, it describes both content and programming projects used in a contribution. 
 
-# A Simple Java Programming Exercise
+## A Simple Java Programming Exercise
 
 This example shows how a user interact with your content. Here the user's solution is validated against a test case. Run it!
 
@@ -23,6 +23,6 @@ This example shows how a user interact with your content. Here the user's soluti
 
 To inject programming exercices please refer to the [documentation]().
 
-# Visual and Interactive Content
+## Visual and Interactive Content
 
 Tech.io provides all the tools to embed dynamic and interactive content like a Web app or a Unix terminal. Please refer to the [official documentation]().

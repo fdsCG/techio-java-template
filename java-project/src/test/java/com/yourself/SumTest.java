@@ -9,6 +9,7 @@ public class SumTest {
 	public void test() {
 		try {
 			Assert.assertEquals("Running sum(2, 3)...", 5, new Sum().sum(2, 3));
+			Assert.assertEquals("Running sum(9, -3)...", 6, new Sum().sum(9, -3));
 			System.out.println("TECHIO> success true");
 			System.out.println("TECHIO> message --channel \"Congrats! :)\" \"Did you know since Java8 is out you can use streams?\"");
 			System.out.println("TECHIO> message --channel \"Congrats! :)\" \"int[] ns = {1, 2, 3};\"");

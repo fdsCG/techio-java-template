@@ -7,6 +7,7 @@ If it is your first contribution then you probably should have a look on the [Ge
 
 ## Template Resources
 [techio.yml](https://github.com): this template configuration file
+{{md  ../techio.yml }} 
 ```
 title : My First Playground
 plan:

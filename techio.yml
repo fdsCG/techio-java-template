@@ -1,10 +1,15 @@
-title : My First Contribution
+title : Change this contribution title
+
+# Here are defined all the pages of your contribution (the table of content)
 plan:
-  - title: Welcome
-    statement: markdowns/welcome.md
+  - title: Welcome # The page title (only displayed if your contribution has several pages)
+    statement: markdowns/welcome.md # 
 #  - title: Another Page
 #    statement: markdowns/another-page.md
+
+
+# Here are described all the projects and Docker images required to run your programming exercises 
 projects:
   java:
-    root: java-project
-    runner: techio/java-maven3-junit4-runner:1.1.3-java-8
+    root: java-project # The root path to your Java project
+    runner: techio/java-maven3-junit4-runner:1.1.3-java-8 # This Docker image allows to run JUnit tests using the following syntax: @[Code Editor Title]({"stubs": ["MyFile1.java", "MyFile2.java"], "command": "MyJUnitClass#myMethod"})

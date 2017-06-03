@@ -7,7 +7,7 @@ If it is your first contribution then you probably should have a look on the [Ge
 
 ## Template Resources
 
-`markdowns/welcome.md`: The content you are reading right belongs to this file which is referenced into the configuration file `techio.yml`. Tech.io uses the markdown syntax to render text and to inject programming editors.
+`markdowns/welcome.md`: The content you are reading right here is in this file. Tech.io relies on the markdown syntax to render text and to inject programming editors.
 
 
 `java-project`: a simple Java + Maven + JUnit project dedicated to run the programming task example below. A project relies on a Docker image to be run according to the project requirements. You can use official Docker images or build your own.

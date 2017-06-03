@@ -7,11 +7,11 @@ If it is your first contribution then you probably should have a look at the [Ge
 
 # A Programming Exercise
 
-This example shows how a user interacts with your content. Here the user's solution is validated against a test case written in the project. Run it!
+This example shows how a user interacts with your content. Here the user's solution is validated against a test case. Run it!
 
 @[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
 
-To inject programming exercices please refer to the [documentation]().
+To get more information about how to inject programming exercices please refer to the [documentation]().
 
 # Template Resources
 
@@ -25,4 +25,4 @@ To inject programming exercices please refer to the [documentation]().
 
 # Visual and Interactive Content
 
-Tech.io provides all the tools to embed dynamic and interactive content like a Web app or a Unix terminal. Please refer to the [official documentation]().
+Tech.io provides all the tools to embed dynamic and interactive content like a Web app or a Unix terminal. Please refer to the [documentation]().

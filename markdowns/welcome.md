@@ -22,11 +22,11 @@ The content you are reading right here is in this file. Tech.io is based on the 
 
 
 `java-project`  
-A simple Java + Maven + JUnit project dedicated to run the programming example upper. A project relies on a Docker image to be run according to the project requirements. You can use official Docker images or build your own.
+A simple Java + Maven + JUnit project dedicated to run the programming exercise upper. A project relies on a Docker image to be run according to the project requirements. You can use an official Docker image or build your own.
 
 
 `techio.yml`  
-This file is mandatory, it describes both content and programming projects used in a contribution.
+This file is mandatory and its path must not by changed, it describes both table of content and programming projects.
 
 # Visual and Interactive Content
 

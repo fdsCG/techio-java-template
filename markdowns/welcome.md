@@ -15,11 +15,14 @@ To get more information about how to inject programming exercices please refer t
 
 # Template Resources
 
-##`markdowns/welcome.md`
+`markdowns/welcome.md`
 the content you are reading right here is in this file. Tech.io relies on the [markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercices.
 
-`java-project`: a simple Java + Maven + JUnit project dedicated to run the programming example upper. A project relies on a Docker image to be run according to the project requirements. You can use official Docker images or build your own.
-`techio.yml`: this file is mandatory, it describes both content and programming projects used in a contribution.
+`java-project`
+a simple Java + Maven + JUnit project dedicated to run the programming example upper. A project relies on a Docker image to be run according to the project requirements. You can use official Docker images or build your own.
+
+`techio.yml`
+this file is mandatory, it describes both content and programming projects used in a contribution.
 
 # Visual and Interactive Content
 

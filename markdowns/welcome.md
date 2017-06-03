@@ -7,7 +7,8 @@ If it is your first contribution then you should have a look at the [Getting Sta
 
 # Java Exercise Demo
 
-This example shows how a user interacts with your programming content. Here the solution is validated against a test case. Run it!
+This example shows how a user interacts with your programming content. Here the solution is validated against a test case.  
+Run it!
 
 @[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
 

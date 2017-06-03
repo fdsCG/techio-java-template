@@ -6,7 +6,19 @@ This Java template helps you at starting smoothly with a very basic working exam
 If it is your first contribution then you probably should have a look on the [Getting Started](https://gettingstarted) document.
 
 ## Template Resources
-[techio.yml](https://github.com): this projet configuration file
+[techio.yml](https://github.com): this template configuration file
+```
+title : My First Playground
+plan:
+  - title: Welcome
+    statement: markdowns/welcome.md
+#  - title: Another Page
+#    statement: markdowns/another-page.md
+projects:
+  java:
+    root: java-project
+    runner: techio/java-maven3-junit4-runner:1.1.3-java-8
+```
 
 [java-project](https://github.com): a simple Java + Maven + JUnit project dedicated to the programming task below
 

@@ -5,7 +5,7 @@ This Java template helps you at starting smoothly with a very basic working exam
 
 If it is your first contribution then you probably should have a look at the [Getting Started](https://gettingstarted) document.
 
-# A Programming Exercise
+# Java Demo
 
 This example shows how a user interacts with your content. Here the user's solution is validated against a test case. Run it!
 

@@ -7,7 +7,7 @@ If it is your first contribution then you probably should have a look at the [Ge
 
 # A Programming Exercise
 
-This example shows how a user interact with your content. Here the user's solution is validated against a test case written in the project. Run it!
+This example shows how a user interacts with your content. Here the user's solution is validated against a test case written in the project. Run it!
 
 @[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
 
@@ -21,7 +21,7 @@ To inject programming exercices please refer to the [documentation]().
 `java-project`: a simple Java + Maven + JUnit project dedicated to run the programming example upper. A project relies on a Docker image to be run according to the project requirements. You can use official Docker images or build your own.
 
 
-`techio.yml`: this template configuration file. This file is madatory, it describes both content and programming projects used in a contribution. 
+`techio.yml`: this file is madatory, it describes both content and programming projects used in a contribution. 
 
 # Visual and Interactive Content
 

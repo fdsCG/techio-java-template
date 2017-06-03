@@ -7,6 +7,8 @@ If it is your first contribution then you probably should have a look on the [Ge
 
 ## Template Resources
 
+![Project tree](./project.png "Project tree")
+
 `markdowns/welcome.md`: The content you are reading right here is in this file. Tech.io relies on the markdown syntax to render text and to inject programming exercices.
 
 

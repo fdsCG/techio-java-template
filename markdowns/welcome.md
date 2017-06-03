@@ -6,8 +6,8 @@ This Java template helps you at starting smoothly with a very basic working exam
 If it is your first contribution then you probably should have a look on the [Getting Started](https://gettingstarted) document.
 
 ## Template Resources
-[techio.yml](https://github.com): this template configuration file
-```markdown
+[`techio.yml`](https://github.com): this template configuration file
+```
 title : My First Playground
 plan:
   - title: Welcome

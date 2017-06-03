@@ -6,30 +6,21 @@ This Java template helps you at starting smoothly with a very basic working exam
 If it is your first contribution then you probably should have a look on the [Getting Started](https://gettingstarted) document.
 
 ## Template Resources
-[`techio.yml`](https://github.com): this template configuration file
-```
-title : My First Playground
-plan:
-  - title: Welcome
-    statement: markdowns/welcome.md
-#  - title: Another Page
-#    statement: markdowns/another-page.md
-projects:
-  java:
-    root: java-project
-    runner: techio/java-maven3-junit4-runner:1.1.3-java-8
-```
 
-[java-project](https://github.com): a simple Java + Maven + JUnit project dedicated to the programming task below
+`markdowns/welcome.md`: The content you are reading right belongs to this file which is referenced into the configuration file `techio.yml`. Tech.io uses the markdown syntax to render text and to inject programming editors.
 
-[markdowns/welcome.md](https://github.com): the markdown file which displays the content you are reading right here
+`java-project`: a simple Java + Maven + JUnit project dedicated to run the programming task example below. A project relies on a Docker image to be run according to the project requirements. You can use official Docker images or build your own.
 
-# A Java Programming Example
+`techio.yml`: this template configuration file. This file is madatory, it describes both content and programming projects used in a contribution. 
+
+# A Simple Java Programming Exercise
 
 The puropose of the example below is to show how users can interact with your content. Here the solution is validated against a test case when the user runs the program. Try it!
+
+To inject a programming editor please refer to the [documentation]().
 
 @[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
 
 # Visual and Interactive Content
 
-Tech.io provides all the tools to embed dynamic and interactive content like a Web apps or a Unix terminal. Please refer to the [official documentation]() or git clone public projects!
+Tech.io provides all the tools to embed dynamic and interactive content like a Web app or a Unix terminal. Please refer to the [official documentation]().

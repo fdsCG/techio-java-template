@@ -11,18 +11,13 @@ This example shows how a user interacts with your programming content. Here the 
 
 @[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
 
-To get more information about how to inject programming exercices please refer to the [documentation]().
-asdasdasdsad sadsad a
+To get more information about how to inject programming exercices please refer to the [documentation]().  
 
 # Template Resources
 
-`markdowns/welcome.md`: The content you are reading right here is in this file. Tech.io relies on the markdown syntax to render text and to inject programming exercices.
-
-
-`java-project`: a simple Java + Maven + JUnit project dedicated to run the programming example upper. A project relies on a Docker image to be run according to the project requirements. You can use official Docker images or build your own.
-
-
-`techio.yml`: this file is madatory, it describes both content and programming projects used in a contribution. 
+`markdowns/welcome.md`: the content you are reading right here is in this file. Tech.io relies on the [markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercices.  
+`java-project`: a simple Java + Maven + JUnit project dedicated to run the programming example upper. A project relies on a Docker image to be run according to the project requirements. You can use official Docker images or build your own.  
+`techio.yml`: this file is mandatory, it describes both content and programming projects used in a contribution.
 
 # Visual and Interactive Content
 

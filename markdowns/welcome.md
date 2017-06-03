@@ -1,7 +1,9 @@
 
 # Welcome!
 
-This Java template helps you at starting smoothly with a very basic working example. This template is also available on [GitHub](), feedback and pull requests are very welcome, please don't hesitate to contribute to make it better. If it is your first contribution then you probably should have a look on the [Getting Started](https://gettingstarted) document.
+This Java template helps you at starting smoothly with a very basic working example. This template is also available on [GitHub](), feedback and pull requests are very welcome, please don't hesitate to contribute to make it better.
+
+If it is your first contribution then you probably should have a look on the [Getting Started](https://gettingstarted) document.
 
 # A Simple Java Programming Exercise
 

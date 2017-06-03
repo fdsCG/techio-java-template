@@ -1,17 +1,18 @@
 
 # Welcome!
 
-This Java template helps you at starting smoothly with a very basic working example. This template is also available on [GitHub](), pull requests are very welcome, please don't hesitate to contribute to make it better.
+This template lets you get started quickly with a simple working example in Java. The source code is available on [GitHub](), pull requests are very welcome, please don't hesitate to come up with proposals for improving it!
 
-If it is your first contribution then you probably should have a look at the [Getting Started](https://gettingstarted) document.
+If it is your first contribution then you should have a look at the [Getting Started](https://gettingstarted) document.
 
-# A Simple Java Demo
+# Java Exercise Demo
 
-This example shows how a user interacts with your content. Here the user's solution is validated against a test case. Run it!
+This example shows how a user interacts with your programming content. Here the solution is validated against a test case. Run it!
 
 @[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
 
 To get more information about how to inject programming exercices please refer to the [documentation]().
+asdasdasdsad sadsad a
 
 # Template Resources
 

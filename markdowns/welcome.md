@@ -4,11 +4,11 @@
 This template lets you get started quickly with a simple working example using Java, Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started](https://gettingstarted) document.
 
 
-This template sources are on [GitHub](), please don't hesitate to come up with proposals for improving it, pull requests are very welcomed!
+Sources are on [GitHub](), please don't hesitate to come up with proposals for improving it, pull requests are very welcomed!
 
 # Java Exercise Demo
 
-This example shows how a user interacts with your programming content. Here the solution is validated against a test case.  
+This example shows how a user interacts with your programming content. Here the solution is validated against test cases.  
 Try to solve it!
 
 @[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
@@ -18,7 +18,7 @@ To get more information about how to inject programming exercices please refer t
 # Template Resources
 
 `markdowns/welcome.md`  
-The content you are reading right here is in this file. Tech.io relies on the [markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercices.
+The content you are reading right here is in this file. Tech.io is based on the [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercices.
 
 
 `java-project`  

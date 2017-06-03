@@ -5,7 +5,7 @@ This template lets you get started quickly with a simple working example using J
 If it is your first contribution then you should have a look at the [Getting Started](https://gettingstarted) document.
 
 
-The sources are available on [GitHub](), please don't hesitate to come up with proposals for improving it, pull requests are very welcome!
+The sources are available on [GitHub](), please don't hesitate to come up with proposals for improving it, pull requests are very welcomed!
 
 # Java Exercise Demo
 

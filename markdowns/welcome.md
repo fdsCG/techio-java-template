@@ -25,4 +25,4 @@ To get more information about how to inject programming exercices please refer t
 
 # Visual and Interactive Content
 
-Tech.io provides all the tools to embed dynamic and interactive content like a Web app or a Unix terminal. Please refer to the [documentation]().
+Tech.io provides all the tools to embed dynamic and interactive content like a Web app or a Unix terminal. Please refer to the [documentation]() to go more in-depth about viewers integration.

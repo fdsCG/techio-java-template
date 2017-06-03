@@ -19,9 +19,9 @@ If it is your first contribution then you probably should have a look on the [Ge
 
 This example shows how a user interact with your content. Here the user's solution is validated against a test case. Run it!
 
-To inject a programming editor please refer to the [documentation]().
-
 @[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
+
+To inject a programming editor please refer to the [documentation]().
 
 # Visual and Interactive Content
 

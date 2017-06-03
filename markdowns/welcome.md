@@ -9,13 +9,15 @@ If it is your first contribution then you probably should have a look on the [Ge
 
 `markdowns/welcome.md`: The content you are reading right belongs to this file which is referenced into the configuration file `techio.yml`. Tech.io uses the markdown syntax to render text and to inject programming editors.
 
+
 `java-project`: a simple Java + Maven + JUnit project dedicated to run the programming task example below. A project relies on a Docker image to be run according to the project requirements. You can use official Docker images or build your own.
+
 
 `techio.yml`: this template configuration file. This file is madatory, it describes both content and programming projects used in a contribution. 
 
 # A Simple Java Programming Exercise
 
-The puropose of the example below is to show how users can interact with your content. Here the solution is validated against a test case when the user runs the program. Try it!
+This example shows how a user interact with your content. Here the user's solution is validated against a test case. Run it!
 
 To inject a programming editor please refer to the [documentation]().
 

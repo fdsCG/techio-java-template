@@ -1,17 +1,21 @@
 
-# Welcome
+# Welcome!
 
-This Java template helps you at starting smoothly with the tech.io platform.
+This Java template helps you at starting smoothly with a very basic working example. [The source code of this template is on GitHub](), feedback and pull requests are very welcome, please don't hesitate to contribute to make it better.
 
-If it's your first contribution it is highly recommended to have a look on our [Getting Started](https://docs.google.com/document/d/12-geAhlmIRNJ3uRdpu6npLIhJ8fXm-8XqupsLCDDpV0/edit?usp=sharing)
+If it is your first contribution then you probably should have a look on the [Getting Started](https://gettingstarted) document.
 
-This template contains several files:
-├── **techio.yml**: the global configuration file
-├── **java-project**: your java project folder
-└── **markdowns**: the folder to put your text and media files
+## Resources of this template
+[techio.yml](https://github.com): this projet configuration file
+[java-project](https://github.com): a simple Java + Maven + JUnit project dedicated to the programming task below
+[markdowns/welcome.md](https://github.com): the markdown file which displays the content you are reading right here
 
-# A programming task example
+# A Java programming example
 
-This is an example of exercise: the learner can complete the stub to match a test you wrote.
+The puropose of the example below is to show how users can interact with your content. Here the solution is validated against a test case when the user runs the program. Try it!
 
-@[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Example.java"], "command": "com.yourself.ExampleTest#test"})
+@[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
+
+# Visual and interactive content
+
+Tech.io provides all the tools to embed dynamic and interactive content like a Web apps or a Unix terminal. Please refer to the [official documentation]() or git clone public projects!

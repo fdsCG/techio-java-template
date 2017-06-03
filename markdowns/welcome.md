@@ -1,21 +1,23 @@
 
 # Welcome!
 
-This Java template helps you at starting smoothly with a very basic working example. [The source code of this template is on GitHub](), feedback and pull requests are very welcome, please don't hesitate to contribute to make it better.
+This Java template helps you at starting smoothly with a very basic working example. This template is also available on [GitHub](), feedback and pull requests are very welcome, please don't hesitate to contribute to make it better.
 
 If it is your first contribution then you probably should have a look on the [Getting Started](https://gettingstarted) document.
 
-## Resources of this template
+## Template Resources
 [techio.yml](https://github.com): this projet configuration file
+
 [java-project](https://github.com): a simple Java + Maven + JUnit project dedicated to the programming task below
+
 [markdowns/welcome.md](https://github.com): the markdown file which displays the content you are reading right here
 
-# A Java programming example
+# A Java Programming Example
 
 The puropose of the example below is to show how users can interact with your content. Here the solution is validated against a test case when the user runs the program. Try it!
 
 @[Returns the sum of elements in an array of integers.]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
 
-# Visual and interactive content
+# Visual and Interactive Content
 
 Tech.io provides all the tools to embed dynamic and interactive content like a Web apps or a Unix terminal. Please refer to the [official documentation]() or git clone public projects!

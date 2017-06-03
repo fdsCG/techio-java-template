@@ -17,7 +17,7 @@ public class SumTest {
 		} catch (AssertionError ae) {
 			System.out.println("TECHIO> success false");
 			System.out.println("TECHIO> message --channel \"Oops :(\" \"" + ae.getMessage() + "\"");
-			System.out.println("TECHIO> message --channel \"Hint\" \"Did you try to accumulate all values into the variable 'sum'?\"");
+			System.out.println("TECHIO> message --channel \"Hint\" \"Did you try to accumulate all values into the variable 'result'?\"");
 		}
 	}
 }

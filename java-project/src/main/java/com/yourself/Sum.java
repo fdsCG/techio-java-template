@@ -7,11 +7,11 @@ public class Sum {
 // }
 
 public int sum(int... ns) {
-	int sum = 0;
+	int result = 0;
 	for(int i : ns){ 
-		sum = i; // fix me!
+		result = i; // fix me!
 	} 
-	return sum;
+	return result;
 }
 
 //{ autofold

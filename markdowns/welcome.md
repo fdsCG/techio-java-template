@@ -8,8 +8,6 @@ Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please d
 
 # Java Exercise Demo
 
-This example shows how a user interacts with your programming content.
-
 @[Can you return the sum of elements in an array of integers?]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
 
 To get more information about how to inject programming exercices please refer to the [documentation]().  

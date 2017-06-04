@@ -14,7 +14,6 @@ public class SumTest {
 			Assert.assertEquals("Running sum(2, 3)...", 5, new Sum().sum(2, 3));
 
 			Method intStreamSum = Tracer.trace("int java.util.stream.IntStream.sum()");
-			System.out.println(intStreamSum);
 			Assert.assertEquals("Running sum(9, -3)...", 6, new Sum().sum(9, -3));
 
 			if (!intStreamSum.wasCalled()) {

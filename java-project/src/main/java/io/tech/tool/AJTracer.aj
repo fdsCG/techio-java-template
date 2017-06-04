@@ -13,7 +13,7 @@ public aspect AJTracer {
 
         String signature = thisJoinPointStaticPart.getSignature().toString();
 
-//        System.out.println("----> "+ signature);
+        System.out.println("----> "+ signature);
         
         Method cb = Tracer.getMethod(signature);
         if (cb != null) {

@@ -18,7 +18,7 @@ The content you are reading right here is in this file. Tech.io is based on the 
 
 
 [`java-project`](https://github.com/fdsCG/techio-java-template/tree/master/java-project)  
-A simple Java + Maven + JUnit project dedicated to run the programming exercise upper. A project relies on a Docker image to be run according to the project requirements. You can use an official Docker image or build your own.
+A simple Java + Maven + JUnit project dedicated to run the programming exercise upper. A project relies on a Docker image to be run according to the project requirements. You can use the [official Docker registry]() or build your own image.
 
 
 [`techio.yml`](https://github.com/fdsCG/techio-java-template/blob/master/techio.yml)  

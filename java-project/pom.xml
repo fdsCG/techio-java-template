@@ -29,7 +29,7 @@
 		<dependency>
 			<scope>system</scope>
 			<version>1.0</version>
-			<systemPath>${basedir}/lib/java-tracer-1.0.0.jar</systemPath>
+			<systemPath>${project.basedir}/lib/java-tracer-1.0.0.jar</systemPath>
 			<groupId>io.tech.tool.tracer</groupId>
 			<artifactId>java-tracer</artifactId>
 		</dependency>

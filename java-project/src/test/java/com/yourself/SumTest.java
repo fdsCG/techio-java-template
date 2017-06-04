@@ -7,6 +7,7 @@ public class SumTest {
 
 	@Test
 	public void test() {
+		Runtime.getRuntime().traceMethodCalls(true);
 		try {
 			Assert.assertEquals("Running sum(2, 3)...", 5, new Sum().sum(2, 3));
 			Assert.assertEquals("Running sum(9, -3)...", 6, new Sum().sum(9, -3));

@@ -6,16 +6,18 @@ import io.tech.tool.Tracer;
 
 public aspect AJTracer {
 
-    pointcut methods() : ( cflow(call(* *(..))) && !within(AJTracer) && !within(io.tech..*) );
+    pointcut methods() : ( cflow(call(* *(..))) && !within(io.tech..*) );
 
     before(): methods() {
-        if (Tracer.map.isEmpty()) return;
 
         String signature = thisJoinPointStaticPart.getSignature().toString();
 
         System.out.println("----> "+ signature);
+
+        if (Tracer.map.isEmpty()) return;
+
         
-        Method cb = Tracer.getMethod(signature);
+        Method cb = Tracer.map.get(signature);
         if (cb != null) {
             cb.target = thisJoinPoint.getTarget();
             cb.args = thisJoinPoint.getArgs();

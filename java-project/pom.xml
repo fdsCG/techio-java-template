@@ -30,6 +30,7 @@
 			<groupId>io.tech.tool.tracer</groupId>
 			<artifactId>java-tracer</artifactId>
 			<version>1.0.0</version>
+			<type>jar</type>
 		</dependency>
 	</dependencies>
 

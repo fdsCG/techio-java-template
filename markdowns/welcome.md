@@ -9,12 +9,12 @@ Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please d
 
 @[Can you return the sum of elements in an array of integers?]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
 
-To get more information about how to inject programming exercices please refer to the [documentation]().  
+To get more information about how to inject programming exercises please refer to the [documentation]().  
 
 # Template Resources
 
 [`markdowns/welcome.md`](https://github.com/fdsCG/techio-java-template/blob/master/markdowns/welcome.md)  
-The content you are reading right here is in this file. Tech.io is based on the [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercices.
+The content you are reading right here is in this file. Tech.io is based on the [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercises.
 
 
 [`java-project`](https://github.com/fdsCG/techio-java-template/tree/master/java-project)  

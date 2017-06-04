@@ -3,8 +3,8 @@ package com.yourself;
 import org.junit.Assert;
 import org.junit.Test;
 
-import io.tech.tool.Method;
-import io.tech.tool.Tracer;
+import io.tech.tool.tracer.Method;
+import io.tech.tool.tracer.Tracer;
 
 public class SumTest {
 

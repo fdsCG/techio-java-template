@@ -1,3 +1,8 @@
+# Java Demo
+
+@[Can you return the sum of elements in an array of integers?]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
+
+To get more information about how to inject programming exercices please refer to the [documentation]().  
 
 # About this Template
 
@@ -5,12 +10,6 @@ This template lets you get started quickly with a simple working example using J
 
 
 Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please don't hesitate to come up with proposals for improving it, pull requests are very welcomed.
-
-# Java Demo
-
-@[Can you return the sum of elements in an array of integers?]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
-
-To get more information about how to inject programming exercices please refer to the [documentation]().  
 
 # Template Resources
 

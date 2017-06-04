@@ -5,24 +5,24 @@ This template lets you get started quickly with a simple working example using J
 
 Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please don't hesitate to come up with proposals for improving it, pull requests are very welcomed.
 
-# Template Resources
-
-`markdowns/welcome.md`  
-The content you are reading right here is in this file. Tech.io is based on the [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercices.
-
-
-`java-project`  
-A simple Java + Maven + JUnit project dedicated to run the programming exercise upper. A project relies on a Docker image to be run according to the project requirements. You can use an official Docker image or build your own.
-
-
-`techio.yml`  
-This file is mandatory and its path must not be changed, it describes both the table of content and the programming project.
-
 # Java Demo
 
 @[Can you return the sum of elements in an array of integers?]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
 
 To get more information about how to inject programming exercices please refer to the [documentation]().  
+
+# Template Resources
+
+[`markdowns/welcome.md`](https://github.com/fdsCG/techio-java-template/blob/master/markdowns/welcome.md)  
+The content you are reading right here is in this file. Tech.io is based on the [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercices.
+
+
+[`java-project`](https://github.com/fdsCG/techio-java-template/tree/master/java-project)  
+A simple Java + Maven + JUnit project dedicated to run the programming exercise upper. A project relies on a Docker image to be run according to the project requirements. You can use an official Docker image or build your own.
+
+
+[`techio.yml`](https://github.com/fdsCG/techio-java-template/blob/master/techio.yml)  
+This file is mandatory and its path must not be changed, it describes both the table of content and the programming project.
 
 # Visual and Interactive Content
 

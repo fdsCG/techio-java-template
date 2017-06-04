@@ -27,4 +27,4 @@ This file is mandatory and its path must not be changed, it describes both the t
 
 # Visual and Interactive Content
 
-Tech.io provides all the tools to embed dynamic and interactive content like a Web app or a Unix terminal. Please refer to the [documentation]() to go more in-depth about viewers integration.
+Tech.io provides all the tools to embed visual and interactive content like a Web app or a Unix terminal. Please refer to the [documentation]() to go more in-depth about the viewers integration.

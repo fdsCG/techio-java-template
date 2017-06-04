@@ -1,10 +1,10 @@
 
 # About this Template
 
-This template lets you get started quickly with a simple working example using Java, Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started](https://gettingstarted) document.
+This template lets you get started quickly with a simple working example using Java, Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started]() document.
 
 
-Sources are on [GitHub](), please don't hesitate to come up with proposals for improving it, pull requests are very welcomed.
+Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please don't hesitate to come up with proposals for improving it, pull requests are very welcomed.
 
 # Java Exercise Demo
 

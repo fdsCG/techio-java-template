@@ -7,8 +7,8 @@ Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please d
 
 # Hands-on Demo
 
-@[Luke, how many stars there are in these galaxies?](\
-	{"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
+@[Luke, how many stars there are in these galaxies?]
+({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
 
 This exercise is injected into this page using the following syntax:  
 ```markdown

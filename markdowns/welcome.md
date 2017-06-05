@@ -5,6 +5,12 @@ This template lets you get started quickly with a simple working example using J
 
 Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please don't hesitate to come up with proposals for improving it, pull requests are very welcomed.
 
+# Hands-on Demo
+
+@[Luke, how many stars there are in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
+
+Check out the file `markdowns/welcome.md` to see how this exercise is injected into this template.
+
 # Template Resources
 
 [`markdowns/welcome.md`](https://github.com/fdsCG/techio-java-template/blob/master/markdowns/welcome.md)  
@@ -17,12 +23,6 @@ A simple Java + Maven + JUnit project dedicated to run the programming exercise 
 
 [`techio.yml`](https://github.com/fdsCG/techio-java-template/blob/master/techio.yml)  
 This file is mandatory and its path must not be changed, it describes both the table of content and the programming project.
-
-# Hands-on Demo
-
-@[Luke, how many stars there are in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
-
-Open the file [`markdowns/welcome.md`](https://github.com/fdsCG/techio-java-template/blob/master/markdowns/welcome.md) to understand how this exercise is injected into this template.
 
 # Visual and Interactive Content
 

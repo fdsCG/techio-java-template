@@ -20,8 +20,8 @@ public class FarmTest {
 	@Test
 	public void test() throws IOException {
 		try {
-			Assert.assertEquals("Running Farm.howManyChicks(2, 3)...", 5, Farm.howManyChicks(2, 3));
-			Assert.assertEquals("Running Farm.howManyChicks(9, -3)...", 6, Farm.howManyChicks(9, -3));
+			Assert.assertEquals("Running Farm.howManyChicks(2, 3)...", 5, Farm.countAllChicks(2, 3));
+			Assert.assertEquals("Running Farm.howManyChicks(9, -3)...", 6, Farm.countAllChicks(9, -3));
 			success(true);
 			
 			if (!existsInFile("Arrays.stream(ns).sum()", new File("./src/main/java/com/yourself/Farm.java"))) {

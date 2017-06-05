@@ -7,7 +7,7 @@ Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please d
 
 # Demo
 
-@[How many chicks in all?]({"stubs": ["src/main/java/com/yourself/Farm.java"], "command": "com.yourself.FarmTest#test"})
+@[How many chicks there are in all?]({"stubs": ["src/main/java/com/yourself/Farm.java"], "command": "com.yourself.FarmTest#test"})
 
 To get more information about how to inject programming exercises please refer to the [documentation]().  
 

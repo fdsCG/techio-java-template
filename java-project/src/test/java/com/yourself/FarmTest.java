@@ -24,7 +24,7 @@ public class FarmTest {
 			Assert.assertEquals("Running Farm.howManyChicks(9, -3)...", 6, Farm.howManyChicks(9, -3));
 			success(true);
 			
-			if (!existsInFile("Arrays.stream(ns).sum()", new File("./src/main/java/com/yourself/Sum.java"))) {
+			if (!existsInFile("Arrays.stream(ns).sum()", new File("./src/main/java/com/yourself/Farm.java"))) {
 				msg("Kudos! 🐣", "Did you know since Java8 is out you can use streams? Try it!");
 				msg("Kudos! 🐣", "");
 				msg("Kudos! 🐣", "int[] ns = {1, 2, 3};");

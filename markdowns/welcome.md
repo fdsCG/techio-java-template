@@ -1,11 +1,11 @@
-# About this Template
+# About this Java Template
 
 This template lets you get started quickly with a simple working example using Java, Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started]() document.
 
 
 Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please don't hesitate to come up with proposals for improving it, pull requests are very welcomed.
 
-# Java Hands-on Demo
+# Hands-on Demo
 
 @[Luke, how many stars there are in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
 

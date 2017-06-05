@@ -7,12 +7,12 @@ Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please d
 
 # Hands-on Demo
 
-@[Luke, how many stars there are in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
+@[Luke, how many stars there are in these galaxies?](\
+	{"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
 
 This exercise is injected into this page using the following syntax:  
 ```markdown
-@[Editor Title]({\
-	"stubs": ["path/to/File1.java", "path/to/File2.java", ...], "command": "com.yourself.JUnitTestFile#methodName"})
+@[Editor Title]({"stubs": ["path/to/File1.java", "path/to/File2.java", ...], "command": "com.yourself.JUnitTestFile#methodName"})
 ```
 Here the editor title is `"Luke, how many stars there are in these galaxies?"`, the file to edit is `"src/main/java/com/yourself/Universe.java"` and the JUnit class#method is `"com.yourself.UniverseTest#test"`.
 ```markdown

@@ -30,12 +30,12 @@ public class SumTest {
 				msg("Kudos! 👏", "int[] ns = {1, 2, 3};");
 				msg("Kudos! 👏", "int sum = Arrays.stream(ns).sum(); //prints 6");
 			} else {
-				msg("You’re my personal Yoda. 🙏", YODA);
+				msg("You’re my personal Yoda 🙏", YODA);
 			}
 		} catch (AssertionError ae) {
 			success(false);
-			msg("Oops 💥", ae.getMessage());
-			msg("Hint 🍭", "Did you try to accumulate all values into the variable 'result'?");
+			msg("Oops! 💥", ae.getMessage());
+			msg("Hint 💡", "Did you try to accumulate all values into the variable 'result'?");
 		}
 	}
 

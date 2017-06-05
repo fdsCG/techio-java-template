@@ -30,7 +30,7 @@ public class UniverseTest {
 				msg("Kudos! 🌟", "int[] ns = {37, 2, 3};");
 				msg("Kudos! 🌟", "int sum = Arrays.stream(galaxies).sum(); //prints 42");
 			} else {
-				msg("Awesome, my personal Yoda, you are. 🙏", YODA);
+				msg("My personal Yoda, you are. 🙏", YODA);
 			}
 		} catch (AssertionError ae) {
 			success(false);

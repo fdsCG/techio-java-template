@@ -35,7 +35,7 @@ public class UniverseTest {
 		} catch (AssertionError ae) {
 			success(false);
 			msg("Oops! 🐞", ae.getMessage());
-			msg("Hint 💡", "Did you try to accumulate all values into the variable 'totalStars'?");
+			msg("Hint 💡", "Did you try to accumulate all stars into 'totalStars'? 🤔");
 		}
 	}
 

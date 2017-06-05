@@ -5,7 +5,7 @@ This template lets you get started quickly with a simple working example using J
 
 Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please don't hesitate to come up with proposals for improving it, pull requests are very welcomed.
 
-# Demo
+# Java Hands-on Demo
 
 @[Luke, how many stars there are in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
 

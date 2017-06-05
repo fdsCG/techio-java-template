@@ -28,7 +28,7 @@ public class FarmTest {
 				msg("Kudos! 🐣", "Did you know since Java8 is out you can use streams? Try it!");
 				msg("Kudos! 🐣", "");
 				msg("Kudos! 🐣", "int[] ns = {1, 2, 3};");
-				msg("Kudos! 🐣", "int sum = Arrays.stream(ns).sum(); //prints 6");
+				msg("Kudos! 🐣", "int sum = Arrays.stream(chicks).sum(); //prints 6");
 			} else {
 				msg("You’re my personal Yoda 🙏", YODA);
 			}

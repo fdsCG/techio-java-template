@@ -6,10 +6,10 @@ import java.util.Arrays;
 public class Farm {
 // }
 
-public static int countAllChicks(int... coops) {
+public static int countAllChicks(int... chicks) {
 	int totalChicks = 0;
-	for(int chicks : coops) {
-		totalChicks = chicks; // fix me!
+	for(int count : chicks) {
+		totalChicks = count; // fix me!
 	} 
 	return totalChicks;
 }

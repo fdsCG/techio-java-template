@@ -8,7 +8,7 @@ import java.util.Scanner;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class FarmTest {
+public class UniverseTest {
 	
 	private static final String YODA =
 			"  __.-._\n" + 
@@ -20,22 +20,22 @@ public class FarmTest {
 	@Test
 	public void test() throws IOException {
 		try {
-			Assert.assertEquals("Running Farm.countAllChicks(2, 3)...", 5, Farm.countAllChicks(2, 3));
-			Assert.assertEquals("Running Farm.countAllChicks(9, -3)...", 6, Farm.countAllChicks(9, -3));
+			Assert.assertEquals("Running Universe.countAllStars(2, 3)...", 5, Universe.countAllStars(2, 3));
+			Assert.assertEquals("Running Universe.countAllStars(9, -3)...", 6, Universe.countAllStars(9, -3));
 			success(true);
 			
-			if (!existsInFile("Arrays.stream(chicks).sum()", new File("./src/main/java/com/yourself/Farm.java"))) {
-				msg("Kudos! 🐣", "Did you know since Java8 is out you can use streams? Try it!");
-				msg("Kudos! 🐣", "");
-				msg("Kudos! 🐣", "int[] ns = {1, 2, 3};");
-				msg("Kudos! 🐣", "int sum = Arrays.stream(chicks).sum(); //prints 6");
+			if (!existsInFile("Arrays.stream(starsInGalaxies).sum()", new File("./src/main/java/com/yourself/Universe.java"))) {
+				msg("Kudos! 🌟", "Did you know since Java8 is out you can use streams? Try it!");
+				msg("Kudos! 🌟", "");
+				msg("Kudos! 🌟", "int[] ns = {37, 2, 3};");
+				msg("Kudos! 🌟", "int sum = Arrays.stream(starsInGalaxies).sum(); //prints 42");
 			} else {
 				msg("You’re my personal Yoda 🙏", YODA);
 			}
 		} catch (AssertionError ae) {
 			success(false);
-			msg("Oops! 🐔", ae.getMessage());
-			msg("Hint 💡", "Did you try to accumulate all values into the variable 'totalChicks'?");
+			msg("Oops! 🐞", ae.getMessage());
+			msg("Hint 💡", "Did you try to accumulate all values into the variable 'totalStars'?");
 		}
 	}
 

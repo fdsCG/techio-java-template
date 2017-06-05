@@ -26,11 +26,6 @@
 			<artifactId>aspectjrt</artifactId>
 			<version>1.8.7</version>
 		</dependency>
-		<dependency>
-			<groupId>io.tech.tool.tracer</groupId>
-			<artifactId>java-tracer</artifactId>
-			<version>1.0.0</version>
-		</dependency>
 	</dependencies>
 
 	<build>

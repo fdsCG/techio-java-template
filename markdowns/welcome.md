@@ -7,7 +7,7 @@ Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please d
 
 # Demo
 
-@[How many chicks there are in all?]({"stubs": ["src/main/java/com/yourself/Farm.java"], "command": "com.yourself.FarmTest#test"})
+@[Luke, how many stars there are in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
 
 To get more information about how to inject programming exercises please refer to the [documentation]().  
 

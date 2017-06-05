@@ -7,19 +7,9 @@ Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please d
 
 # Hands-on Demo
 
-@[Luke, how many stars there are in these galaxies?]
-({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
-
-This exercise is injected into this page using the following syntax:  
-```markdown
-@[Editor Title]({"stubs": ["path/to/File1.java", "path/to/File2.java", ...], "command": "com.yourself.JUnitTestFile#methodName"})
-```
-Here the editor title is `"Luke, how many stars there are in these galaxies?"`, the file to edit is `"src/main/java/com/yourself/Universe.java"` and the JUnit class#method is `"com.yourself.UniverseTest#test"`.
-```markdown
 @[Luke, how many stars there are in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
-```
 
-To get more information about how to inject programming exercises please refer to the [documentation]().  
+Open the file [`markdowns/welcome.md`](https://github.com/fdsCG/techio-java-template/blob/master/markdowns/welcome.md) to understand how this exercise is injected into this template.
 
 # Template Resources
 

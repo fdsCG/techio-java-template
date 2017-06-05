@@ -20,11 +20,11 @@ public class FarmTest {
 	@Test
 	public void test() throws IOException {
 		try {
-			Assert.assertEquals("Running Farm.howManyChicks(2, 3)...", 5, Farm.countAllChicks(2, 3));
-			Assert.assertEquals("Running Farm.howManyChicks(9, -3)...", 6, Farm.countAllChicks(9, -3));
+			Assert.assertEquals("Running Farm.countAllChicks(2, 3)...", 5, Farm.countAllChicks(2, 3));
+			Assert.assertEquals("Running Farm.countAllChicks(9, -3)...", 6, Farm.countAllChicks(9, -3));
 			success(true);
 			
-			if (!existsInFile("Arrays.stream(ns).sum()", new File("./src/main/java/com/yourself/Farm.java"))) {
+			if (!existsInFile("Arrays.stream(chicks).sum()", new File("./src/main/java/com/yourself/Farm.java"))) {
 				msg("Kudos! 🐣", "Did you know since Java8 is out you can use streams? Try it!");
 				msg("Kudos! 🐣", "");
 				msg("Kudos! 🐣", "int[] ns = {1, 2, 3};");
@@ -35,7 +35,7 @@ public class FarmTest {
 		} catch (AssertionError ae) {
 			success(false);
 			msg("Oops! 🐔", ae.getMessage());
-			msg("Hint 💡", "Did you try to accumulate all values into the variable 'result'?");
+			msg("Hint 💡", "Did you try to accumulate all values into the variable 'totalChicks'?");
 		}
 	}
 

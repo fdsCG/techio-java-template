@@ -30,7 +30,7 @@ public class SumTest {
 				msg("Kudos!", "int[] ns = {1, 2, 3};");
 				msg("Kudos!", "int sum = Arrays.stream(ns).sum(); //prints 6");
 			} else {
-				msg("You’re my personal Yoda.", YODA);
+				msg("💪 You’re my personal Yoda.", YODA);
 			}
 		} catch (AssertionError ae) {
 			success(false);

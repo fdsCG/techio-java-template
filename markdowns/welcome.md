@@ -7,7 +7,7 @@ Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please d
 
 # Demo
 
-@[Can you return the sum of elements in an array of integers?]({"stubs": ["src/main/java/com/yourself/Sum.java"], "command": "com.yourself.SumTest#test"})
+@[How may chicks in all?]({"stubs": ["src/main/java/com/yourself/Farm.java"], "command": "com.yourself.FarmTest#test"})
 
 To get more information about how to inject programming exercises please refer to the [documentation]().  
 

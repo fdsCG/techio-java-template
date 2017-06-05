@@ -8,7 +8,7 @@ import java.util.Scanner;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SumTest {
+public class FarmTest {
 	
 	private static final String YODA =
 			"  __.-._\n" + 
@@ -20,21 +20,21 @@ public class SumTest {
 	@Test
 	public void test() throws IOException {
 		try {
-			Assert.assertEquals("Running sum(2, 3)...", 5, new Sum().sum(2, 3));
-			Assert.assertEquals("Running sum(9, -3)...", 6, new Sum().sum(9, -3));
+			Assert.assertEquals("Running Farm.howManyChicks(2, 3)...", 5, Farm.howManyChicks(2, 3));
+			Assert.assertEquals("Running Farm.howManyChicks(9, -3)...", 6, Farm.howManyChicks(9, -3));
 			success(true);
 			
 			if (!existsInFile("Arrays.stream(ns).sum()", new File("./src/main/java/com/yourself/Sum.java"))) {
-				msg("Kudos 👏", "Did you know since Java8 is out you can use streams? Try it!");
-				msg("Kudos 👏", "");
-				msg("Kudos 👏", "int[] ns = {1, 2, 3};");
-				msg("Kudos 👏", "int sum = Arrays.stream(ns).sum(); //prints 6");
+				msg("Kudos! 🐣", "Did you know since Java8 is out you can use streams? Try it!");
+				msg("Kudos! 🐣", "");
+				msg("Kudos! 🐣", "int[] ns = {1, 2, 3};");
+				msg("Kudos! 🐣", "int sum = Arrays.stream(ns).sum(); //prints 6");
 			} else {
 				msg("You’re my personal Yoda 🙏", YODA);
 			}
 		} catch (AssertionError ae) {
 			success(false);
-			msg("Oops! 💥", ae.getMessage());
+			msg("Oops! 🐔", ae.getMessage());
 			msg("Hint 💡", "Did you try to accumulate all values into the variable 'result'?");
 		}
 	}

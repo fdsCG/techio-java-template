@@ -22,31 +22,31 @@ public class SumTest {
 		try {
 			Assert.assertEquals("Running sum(2, 3)...", 5, new Sum().sum(2, 3));
 			Assert.assertEquals("Running sum(9, -3)...", 6, new Sum().sum(9, -3));
-			printSuccess(true);
+			success(true);
 			
 			if (!existsInFile("Arrays.stream(ns).sum()", new File("./src/main/java/com/yourself/Sum.java"))) {
-				printMsg("Kudos!", "Did you know since Java8 is out you can use streams?");
-				printMsg("Kudos!", "");
-				printMsg("Kudos!", "int[] ns = {1, 2, 3};");
-				printMsg("Kudos!", "int sum = Arrays.stream(ns).sum(); //prints 6");
+				msg("Kudos!", "Did you know since Java8 is out you can use streams?");
+				msg("Kudos!", "");
+				msg("Kudos!", "int[] ns = {1, 2, 3};");
+				msg("Kudos!", "int sum = Arrays.stream(ns).sum(); //prints 6");
 			} else {
-				printMsg("You’re my personal Yoda.", YODA);
+				msg("You’re my personal Yoda.", YODA);
 			}
 		} catch (AssertionError ae) {
-			printSuccess(false);
-			printMsg("Oops :(", ae.getMessage());
-			printMsg("Hint", "Did you try to accumulate all values into the variable 'result'?");
+			success(false);
+			msg("Oops :(", ae.getMessage());
+			msg("Hint", "Did you try to accumulate all values into the variable 'result'?");
 		}
 	}
 
-	private static void printMsg(String channel, String msg) {
+	private static void msg(String channel, String msg) {
 		msg = msg.replaceAll("\"", "\\\\\"");
 		for (String s : msg.split("\\n")) {
 			System.out.println(String.format("TECHIO> message --channel \"%s\" \"%s\"", channel, s));
 		}
 	}
 
-	private static void printSuccess(boolean success) {
+	private static void success(boolean success) {
 		System.out.println(String.format("TECHIO> success %s", success));
 	}
 

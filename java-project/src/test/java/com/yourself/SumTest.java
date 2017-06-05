@@ -25,7 +25,7 @@ public class SumTest {
 			success(true);
 			
 			if (!existsInFile("Arrays.stream(ns).sum()", new File("./src/main/java/com/yourself/Sum.java"))) {
-				msg("Kudos!", "Did you know since Java8 is out you can use streams?");
+				msg("Kudos!", "Did you know since Java8 is out you can use streams? Try it!");
 				msg("Kudos!", "");
 				msg("Kudos!", "int[] ns = {1, 2, 3};");
 				msg("Kudos!", "int sum = Arrays.stream(ns).sum(); //prints 6");

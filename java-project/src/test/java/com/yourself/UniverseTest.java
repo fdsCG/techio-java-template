@@ -24,11 +24,11 @@ public class UniverseTest {
 			Assert.assertEquals("Running Universe.countAllStars(9, -3)...", 6, Universe.countAllStars(9, -3));
 			success(true);
 			
-			if (!existsInFile("Arrays.stream(starsInGalaxies).sum()", new File("./src/main/java/com/yourself/Universe.java"))) {
+			if (!existsInFile("Arrays.stream(galaxies).sum()", new File("./src/main/java/com/yourself/Universe.java"))) {
 				msg("Kudos! 🌟", "Did you know since Java8 is out you can use streams? Try it!");
 				msg("Kudos! 🌟", "");
 				msg("Kudos! 🌟", "int[] ns = {37, 2, 3};");
-				msg("Kudos! 🌟", "int sum = Arrays.stream(starsInGalaxies).sum(); //prints 42");
+				msg("Kudos! 🌟", "int sum = Arrays.stream(galaxies).sum(); //prints 42");
 			} else {
 				msg("You’re my personal Yoda 🙏", YODA);
 			}

@@ -6,9 +6,9 @@ import java.util.Arrays;
 public class Universe {
 // }
 
-public static int countAllStars(int... starsInGalaxies) {
+public static int countAllStars(int... galaxies) {
 	int totalStars = 0;
-	for(int stars : starsInGalaxies) {
+	for(int stars : galaxies) {
 		totalStars = stars; // fix me!
 	} 
 	return totalStars;

@@ -22,7 +22,7 @@ A simple Java + Maven + JUnit project dedicated to run the programming exercise 
 
 
 [`techio.yml`](https://github.com/fdsCG/techio-java-template/blob/master/techio.yml)  
-This file is mandatory and its path must not be changed, it describes both the table of content and the programming project.
+This file describes both the table of content and the programming project(s), it's mandatory and its path must not be changed.
 
 # Visual and Interactive Content
 

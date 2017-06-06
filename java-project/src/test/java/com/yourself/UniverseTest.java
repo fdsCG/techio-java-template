@@ -2,28 +2,27 @@ package com.yourself;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.Scanner;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 public class UniverseTest {
-	
-	private static final String YODA =
-			"  __.-._\n" + 
-			"  '-._\"7'\n" + 
-			"   /'.-c\n" + 
-			"   |  /T\n" + 
-			"  _)_/LI";
+
+	public static final String YODA =
+			"__.-._\n" + 
+			"'-._\"7'\n" + 
+			" /'.-c\n" + 
+			" |  /T\n" + 
+			"_)_/LI";
 
 	@Test
-	public void test() throws IOException {
+	public void test() throws FileNotFoundException {
 		try {
 			Assert.assertEquals("Running Universe.countAllStars(2, 3)...", 5, Universe.countAllStars(2, 3));
 			Assert.assertEquals("Running Universe.countAllStars(9, -3)...", 6, Universe.countAllStars(9, -3));
 			success(true);
-			
+
 			if (existsInFile("Arrays.stream(galaxies).sum()", new File("./src/main/java/com/yourself/Universe.java"))) {
 				msg("My personal Yoda, you are. 🙏", YODA);
 			} else {
@@ -55,10 +54,8 @@ public class UniverseTest {
 		Scanner scanner = new Scanner(file);
 		try {
 			while (scanner.hasNextLine()) {
-				String lineFromFile = scanner.nextLine();
-				if (lineFromFile.contains(text))
+				if (scanner.nextLine().contains(text))
 					return true;
-
 			}
 			return false;
 		} finally {

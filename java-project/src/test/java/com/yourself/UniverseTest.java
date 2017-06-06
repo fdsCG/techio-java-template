@@ -28,8 +28,8 @@ public class UniverseTest {
 			} else {
 				msg("Kudos 🌟", "Did you know since Java8 is out you can use streams? Try it!");
 				msg("Kudos 🌟", "");
-				msg("Kudos 🌟", "int[] galaxies = {37, 2, 3};");
-				msg("Kudos 🌟", "int sum = Arrays.stream(galaxies).sum(); //prints 42");
+				msg("Kudos 🌟", "int[] galaxies = {37, 3, 2};");
+				msg("Kudos 🌟", "int totalStars = Arrays.stream(galaxies).sum(); // 42");
 			}
 		} catch (AssertionError ae) {
 			success(false);

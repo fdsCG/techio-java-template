@@ -50,11 +50,11 @@ public class UniverseTest {
 	}
 
 	// check if a string exists in a text file
-	private static boolean existsInFile(String text, File file) throws FileNotFoundException {
+	private static boolean existsInFile(String str, File file) throws FileNotFoundException {
 		Scanner scanner = new Scanner(file);
 		try {
 			while (scanner.hasNextLine()) {
-				if (scanner.nextLine().contains(text))
+				if (scanner.nextLine().contains(str))
 					return true;
 			}
 			return false;

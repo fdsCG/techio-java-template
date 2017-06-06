@@ -14,7 +14,7 @@ Check out the file `markdown/welcome.md` to see how this exercise is injected in
 # Template Resources
 
 [`markdown/welcome.md`](https://github.com/fdsCG/techio-java-template/blob/master/markdown/welcome.md)  
-The content you are reading right here is in this file. Tech.io is based on the [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercises.
+What you are reading right here comes from this file. Tech.io uses the [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercises.
 
 
 [`java-project`](https://github.com/fdsCG/techio-java-template/tree/master/java-project)  

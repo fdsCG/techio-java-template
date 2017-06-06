@@ -9,11 +9,11 @@ Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please d
 
 @[Luke, how many stars there are in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
 
-Check out the file `markdowns/welcome.md` to see how this exercise is injected into this template.
+Check out the file `markdown/welcome.md` to see how this exercise is injected into this template.
 
 # Template Resources
 
-[`markdowns/welcome.md`](https://github.com/fdsCG/techio-java-template/blob/master/markdowns/welcome.md)  
+[`markdown/welcome.md`](https://github.com/fdsCG/techio-java-template/blob/master/markdown/welcome.md)  
 The content you are reading right here is in this file. Tech.io is based on the [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render text, medias and to inject programming exercises.
 
 

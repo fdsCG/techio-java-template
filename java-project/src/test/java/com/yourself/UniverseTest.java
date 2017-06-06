@@ -50,9 +50,9 @@ public class UniverseTest {
 		System.out.println(String.format("TECHIO> success %s", success));
 	}
 
-	// check if a particular text belongs to a file
-	private static boolean existsInFile(String text, File srcFile) throws FileNotFoundException {
-		Scanner scanner = new Scanner(srcFile);
+	// check if a string exists in a text file
+	private static boolean existsInFile(String text, File file) throws FileNotFoundException {
+		Scanner scanner = new Scanner(file);
 		try {
 			while (scanner.hasNextLine()) {
 				String lineFromFile = scanner.nextLine();

@@ -1,4 +1,4 @@
-# Welcome!
+# Welcome! 
 
 This template lets you get started quickly with a simple working example using Java, Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started]() document.
 

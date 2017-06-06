@@ -2,6 +2,7 @@ package com.yourself;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 
 import org.junit.Assert;
@@ -10,15 +11,14 @@ import org.junit.Test;
 public class UniverseTest {
 
 	@Test
-	public void test() throws FileNotFoundException {
+	public void test() throws IOException, InterruptedException {
 		try {
 			Assert.assertEquals("Running Universe.countAllStars(2, 3)...", 5, Universe.countAllStars(2, 3));
 			Assert.assertEquals("Running Universe.countAllStars(9, -3)...", 6, Universe.countAllStars(9, -3));
 			success(true);
-
 			//if (existsInFile("Arrays.stream(galaxies).sum()", new File("./src/main/java/com/yourself/Universe.java"))) {
 				msg("My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ○ ° ★　 . • ○ ° ☆　 .　 *　.　.　　¸ . ☆ ¸. ¸\n           　★ °  ☆ ¸. ¸ 　★　 :.　 . • ○　¸.  .　　☾　　　　　　　* ¸ 　　 :.  　 .　 *　__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .　☆　　　° :.　 . • ○ ° 　 　　.　　　　　.\n'-._\\7'      .　　° ☾  ° 　¸.☆  ● .　　　 ° ¸. ☆ ¸. ¸ 　　 :.　 .  ○ ° 　.　 　.　.\n /'.-c    　   * ●  ¸.　　°     ° 　¸.     ¸ .　　¸.　° :.　 . • ° 　.　 *　. 　 .: \n |  /T      　　°     ° 　¸.     ¸ .　　¸.　       ° :.　        .                ° 　\n_)_/LI");
-				System.out.println("TECHIO> open -s /project/target/src/main/resources /yoda.jpg");
+				System.out.println("TECHIO> open -s /");
 			/*} else*/ {
 				msg("Kudos 🌟", "Did you know since Java8 is out you can use streams? Try it!");
 				msg("Kudos 🌟", "");

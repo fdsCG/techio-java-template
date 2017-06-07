@@ -3,13 +3,13 @@
 This template lets you get started quickly with a simple working example using Java, Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started](/doc/getting-started-create-playground) document.
 
 
-Sources are on [GitHub](https://github.com/fdsCG/techio-java-template), please don't hesitate to come up with proposals for improving it.
+The source code is on [GitHub](https://github.com/fdsCG/techio-java-template), please feel free to come up with proposals to improve it.
 
 # Hands-on Demo
 
 @[Luke, how many stars there are in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
 
-Check out the file [`markdowns/welcome.md`](https://github.com/fdsCG/techio-java-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into this template.
+Check out the markdown file [`welcome.md`](https://github.com/fdsCG/techio-java-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
 # Template Resources
 

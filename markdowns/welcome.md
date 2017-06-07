@@ -2,6 +2,7 @@
 
 This Java template lets you get started quickly with a simple working example using Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started](/doc/getting-started-create-playground) document.
 
+test change
 
 The source code is on [GitHub](https://github.com/fdsCG/techio-java-template), please feel free to come up with proposals to improve it.
 

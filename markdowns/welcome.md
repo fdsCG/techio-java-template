@@ -26,4 +26,4 @@ This file describes both the table of content and the programming project(s), it
 
 # Visual and Interactive Content
 
-Tech.io provides all the tools to embed visual and interactive content like a Web app or a Unix terminal. Please refer to the [documentation](/doc) to go more in-depth about the viewers integration.
+Tech.io provides all the tools to embed visual and interactive content like a Web app or a Unix terminal. Please refer to the [documentation](/doc) to go more in-depth about the viewer integrations.

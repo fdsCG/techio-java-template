@@ -8,7 +8,7 @@ plan:
 #    statement: markdowns/another-page.md
 
 
-# Paths to your programming projects and the associated Docker images
+# Settings for your programming projects and the associated Docker images
 projects:
   java:
     root: /java-project # Set the root path to your Java project

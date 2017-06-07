@@ -18,7 +18,7 @@ What you are reading right here comes from this file. Tech.io uses the [Markdown
 
 
 [`java-project`](https://github.com/fdsCG/techio-java-template/tree/master/java-project)  
-A simple Java + Maven + JUnit project dedicated to run the programming exercise upper. A project relies on a Docker image to be run according to the project requirements. You can use the [official Docker registry]() or build your own image.
+A simple Java + Maven + JUnit project dedicated to run the programming exercise upper. A project relies on a Docker image. You can find images on the [Docker Hub](https://hub.docker.com/explore/) or you can even [build your own]().
 
 
 [`techio.yml`](https://github.com/fdsCG/techio-java-template/blob/master/techio.yml)  

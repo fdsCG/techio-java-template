@@ -28,7 +28,7 @@ public class UniverseTest {
 			if (existsInFile("Arrays.stream(galaxies).sum()", new File("./src/main/java/com/yourself/Universe.java"))) {
 				msg("My personal Yoda, you are. 🙏", YODA);
 			} else {
-				msg("Kudos 🌟", "Did you know since Java8 is out you can use streams? Try it!");
+				msg("Kudos 🌟", "Did you know that since Java8 is out you can use streams? Try it!");
 				msg("Kudos 🌟", "");
 				msg("Kudos 🌟", "int[] galaxies = {37, 3, 2};");
 				msg("Kudos 🌟", "int totalStars = Arrays.stream(galaxies).sum(); // 42");
@@ -36,7 +36,7 @@ public class UniverseTest {
 		} catch (AssertionError ae) {
 			success(false);
 			msg("Oops! 🐞", ae.getMessage());
-			msg("Hint 💡", "Did you try to accumulate all stars into 'totalStars'? 🤔");
+			msg("Hint 💡", "Did you properly accumulate all stars into 'totalStars'? 🤔");
 		}
 	}
 
